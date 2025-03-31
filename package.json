@@ -1,0 +1,23 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Projeto node",
+  "keywords": [
+    "test_"
+  ],
+  "homepage": "https://github.com/wazeveve/NodeNpmTest#readme",
+  "bugs": {
+    "url": "https://github.com/wazeveve/NodeNpmTest/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wazeveve/NodeNpmTest.git"
+  },
+  "license": "MIT",
+  "author": "Gabriel Venancio",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm help init"
+  }
+}

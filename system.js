@@ -1,0 +1,10 @@
+const os = require("os")
+
+console.log("Sistema Operacional: ", os.version())
+console.log("Versão do SO: ",os.release())
+console.log("Plataforma: ", os.platform())
+console.log("CPUs: ", os.cpus().length)
+console.log("Modelo do CPU: ", os.cpus()[0].model)
+console.log("Memória Total: ", (os.totalmem() / 1024 / 1024 / 1024).toFixed(1), "GB")
+console.log("Usuário: ", os.userInfo().username)
+console.log("Tempo de atividade: ", os.uptime(), "segundos")
